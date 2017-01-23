@@ -2,14 +2,14 @@
 const myVal = process.argv;
 
 //creating array
-let Arr1=[];
+let mybal1=[];
 
 //adding values to array
-Arr1.push(Number(myVal[2]));
-Arr1.push(Number(myVal[3]));
+mybal1.push(Number(myVal[2]));
+mybal1.push(Number(myVal[3]));
 
 //console log the array
-console.log(Arr1);
+console.log(mybal1);
 
 //adding the values to craete sum
 let a = Number(myVal[2]) + Number(myVal[3]);
